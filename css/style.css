@@ -1,0 +1,250 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --title-white-color: #ffffff;
+    --bgr-color: #2f303a;
+    --logo-dark-color: #000000;
+    --btn-color: #f5f4fa;
+    --icon-color: #afb1b8;
+  }
+
+
+body{ 
+        margin: 0;
+        background-color: var(--title-white-color);
+        color: var(--primary-text-color);
+        font-family: Roboto, sans-serif;
+        letter-spacing: 0.03em;
+        font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.section:not(:first-child){
+margin-top: 94px;
+}
+
+.section{
+    width: 1200px;
+
+}
+
+
+/* ---------------HEADER---------------------- */
+
+
+.header-nav{
+display: flex;
+
+}
+
+.site-nav{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.web-studio-location{
+display: flex;
+justify-content: space-between;
+}
+
+.header-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.header-info{
+    display: flex;
+    justify-content: center;
+align-items: center;
+
+}
+
+.mail:not(:last-child){
+    margin-right: 50px;
+}
+
+
+
+.logo {
+    margin-right: 93px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+    text-decoration:none;
+    
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    
+    color:var(--logo-dark-color);
+  
+}    
+.logo:hover{
+color: #18a0fb;     
+}
+
+
+ul{
+    list-style: none;
+}
+main{
+    background-color: #2F303A;;
+    width: 1600px;
+height: 600px;
+top: 80px;
+
+}
+
+.hero{
+    margin: 0 auto;
+}
+
+
+.hero-title{
+  padding-left:452px ;
+    padding-top: 200px;
+  width: 700px;
+height: 120px;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+
+}
+.hero-button{ 
+    width: 200px;
+height: 50px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+background: #2196F3;
+
+margin-top: 200px;
+}
+
+/*--------------- ОСОБЕННОСТИ-------------- */
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.peculiarities{
+    display: flex;
+
+    
+}
+.peculiarities-item:not(:last-child){
+    margin-right: 30px;
+    
+}
+
+.title-one{
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color:var(--title-text-color);
+margin-bottom: 10px;
+}
+.paragraph-one{
+font-size: 14px;
+line-height: 1.71;
+color: var(--primary-text-color);
+width: 270px;
+text-align: left;
+}
+
+/* ----------------Чем мы занимаемся------------------ */
+
+.section-title-job{
+    
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
+    color:var(--title-text-color);
+    margin-bottom: 50px;
+    
+}
+.item-job{
+   display: flex;
+}
+.image-one:not(:last-child){
+ margin-right: 30px;
+    
+}
+
+
+/* ---------НАША КОМАНДА-------- */
+
+
+
+.section-title-our-team{
+margin-bottom: 50px;
+
+font-weight: bold;
+font-size: 36px;
+line-height: 1.6;
+text-align: center;
+
+color:var(--title-text-color);    
+}
+
+
+.team-list{
+display: flex;
+}
+
+
+.image-special:not(:last-child){
+   margin-right: 30px;
+}
